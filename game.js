@@ -1,7 +1,7 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
-// Adding 12 players with initial positions, random speeds, and names
+// Adding players with initial positions, random speeds, and names
 let players = [
     { x: 10, y: 40, speed: Math.random() * 3 + 1, image: "players/Jau.png", name: "Jau Racer", angle: 0 },
     { x: 10, y: 100, speed: Math.random() * 3 + 1, image: "players/Jwl.png", name: "Jwl Bolt", angle: 0 },
