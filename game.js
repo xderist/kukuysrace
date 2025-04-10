@@ -135,6 +135,9 @@ function drawPlayerSelection() {
 
 // Event listener for player selection
 canvas.addEventListener("click", (event) => {
+    if (gameInProgress) {
+        return;
+    }
     const rect = canvas.getBoundingClientRect();
     const mouseX = event.clientX - rect.left;
     const mouseY = event.clientY - rect.top;
@@ -209,6 +212,9 @@ function resetRace() {
 
 // Start the race
 canvas.addEventListener("click", (event) => {
+    if (gameInProgress) {
+        return;
+    }
     const rect = canvas.getBoundingClientRect();
     const mouseX = event.clientX - rect.left;
     const mouseY = event.clientY - rect.top;
