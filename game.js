@@ -15,7 +15,7 @@ let players = [
     { x: 10, y: 580, speed: Math.random() * 3 + 1, image: "players/Kuku.png", name: "Kuku Flyer", angle: 0 },
     { x: 10, y: 640, speed: Math.random() * 3 + 1, image: "players/Jing.png", name: "Jing Streak", angle: 0 },
     { x: 10, y: 700, speed: Math.random() * 3 + 1, image: "players/Kokz.png", name: "Kokz Rocket", angle: 0 },
-    { x: 10, y: 760, speed: Math.random() * 3 + 1, image: "players/Kokz.png", name: "Kokz Rocket", angle: 0 }
+    { x: 10, y: 760, speed: Math.random() * 3 + 1, image: "players/Hubris.png", name: "Hubris Painter", angle: 0 }
 ];
 
 let raceInterval;
